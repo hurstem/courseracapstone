@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width:770px) {
+	
+/*TITLE*/
+
+/*IMAGES*/
+	
+/*ABOUT PAGE*/
+	
+/*CONTACT PAGE*/
+	#contactInfo {
+		margin: 1.5rem auto;
+	}
+
+	#contactSheet {
+		width: 100%;
+		display: block;
+		margin: 1.5rem auto;
+	}
+
+	#googleMap iframe {
+		height: 20rem;
+		width: 100%;
+		display: block;
+		margin: 1.5rem auto;
+	}
+/*FOOTER*/
+
+}
