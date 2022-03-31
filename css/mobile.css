@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width:480px) {
+	
+/*TITLE*/
+	#site-title {
+		width: 100%;
+	}
+/*IMAGES*/
+	body {
+		display: block;
+	}
+
+	.box {
+		width: 100%;
+		display: block;
+	}
+
+	.portfolioImg {
+		height: auto;
+		width: 100%;
+	}
+/*ABOUT PAGE*/
+	#aboutImg {
+		border-radius: 1rem;
+		display: block;
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+/*CONTACT PAGE*/
+	#contactInfo {
+		margin: 1.5rem auto;
+	}
+
+	#contactSheet {
+		width: 100%;
+		display: block;
+		margin: 1.5rem auto;
+	}
+
+	#googleMap iframe {
+		height: 50rem;
+		width: 100%;
+		display: block;
+		margin: 1.5rem auto;
+	}
+/*FOOTER*/
+	#footerImg {
+		width: 50%;
+		margin: .5rem 0rem;
+	}
+}

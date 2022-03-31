@@ -1,0 +1,604 @@
+/* Theme Name:Moschino Theme URI:https://www.wowthemes.net/marketplace/free-html-template-moschino/ Author:WowThemes.net Author URI:https://www.wowthemes.net/ Description:Minimalist Portfolio & Ecommerce HTML Template Version:1.0.0 Personal License: Free for personal use Commercial License: Buy it here-> https://www.wowthemes.net/marketplace/free-html-template-nectaria/ Tags:white,light,one-column,two-columns,left-sidebar,right-sidebar,fluid-layout,custom-div,custom-menu,custom-colors,editor-style,featured-image-div,full-width-template,post-formats,theme-options,featured-images,translation-ready */
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126License: none (public domain)*/
+/* font-family: 'Antic Slab', serif;
+ font-family: 'Kite One', sans-serif;
+font-family: 'Hepta Slab', serif;
+ */
+/*--------------------------------------------------------------1.0 - Reset--------------------------------------------------------------*/
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, big, del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var, b, u, i, center, dl, dt, dd, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/
+.container {
+	margin: 0 20px;
+}
+
+.column {
+	margin-bottom: 1em;
+}
+/*--------------------------------------------------------------3.0 Typography--------------------------------------------------------------*/
+button, input, select, textarea {
+	color: #666666;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 1.8;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Antic Slab', serif!important;
+	margin-top: 5rem;
+	margin-bottom: 10px;
+	color: #222222;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+#secondaryTitle {
+	font-family: 'Kite One', sans-serif;
+	color: #222222;
+	margin: 2rem 0rem;
+	font-size: 20px;
+	letter-spacing: 0px;
+	text-align: center;
+	text-transform: none;
+}
+
+p {
+	font-family: 'Antic Slab', serif;
+	font-size: 14px;
+	margin-bottom: 1.5em;
+}
+
+b, strong {
+	font-weight: bold;
+}
+/*--------------------------------------------------------------4.0 Elements--------------------------------------------------------------*/
+hr {
+	background-color: #e5e5e5;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+}
+
+img {
+	height: auto;
+    /* Make sure images are scaled correctly. */
+	max-width: 100%;
+    /* Adhere to container width. */
+	;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li>ul, li>ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 2;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+table th {
+	font-weight: bold;
+	padding: 10px 10px 10px 0;
+	text-align: left;
+}
+
+table td {
+	padding: 10px 10px 10px 0;
+}
+
+table tr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+/*--------------------------------------------------------------5.0 Forms--------------------------------------------------------------*/
+button, input, select, textarea {
+	font-size: 100%;
+    /* Corrects font size not being inherited in all browsers */
+	margin: 0;
+    /* Addresses margins set differently in IE6/7,F3/4,S5,Chrome */
+	vertical-align: baseline;
+    /* Improves appearance and consistency in all browsers */
+	;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	background: #ccc;
+	color: #fff;
+	cursor: pointer;
+    /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	-webkit-appearance: button;
+    /* Corrects inability to style clickable 'input' types in iOS */
+	padding: 3px 15px;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	opacity: 0.6;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+    /* Addresses excess padding in IE8/9 */
+	;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+    /* Addresses appearance set to searchfield in S5,Chrome */
+	-webkit-box-sizing: content-box;
+    /* Addresses box sizing set to border-box in S5,Chrome (include -moz to future-proof) */
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    /* Corrects inner padding displayed oddly in S5,Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+	border: 0;
+	padding: 0;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	color: #666;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {
+	color: #111;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"] {
+	padding: 6px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	overflow: auto;
+    /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding: 5px;
+	vertical-align: top;
+    /* Improves readability and alignment in all browsers */
+	width: 98%;
+}
+/*--------------------------------------------------------------5.1 Contact Form 7--------------------------------------------------------------*/
+.wpcf7-form-control-wrap {
+	display: inline;
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="url"], .wpcf7 input[type="password"], .wpcf7 textarea {
+	background-color: #e6e6e6;
+	border: 1px solid #e6e6e6;
+	border-radius: 0;
+	outline-color: transparent;
+	outline-style: none;
+	padding: 10px;
+	width: 100%;
+}
+
+.wpcf7 input[type="text"]:focus, .wpcf7 input[type="email"]:focus, .wpcf7 input[type="url"]:focus, .wpcf7 input[type="password"]:focus, .wpcf7 textarea:focus {
+	background-color: #fff;
+	color: #111;
+}
+
+.wpcf7 input[type="submit"] {
+	border: 1px solid #4d4d4d;
+	border-color: #4d4d4d;
+	border-radius: 0;
+	background: #4d4d4d;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+    /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	-webkit-appearance: button;
+    /* Corrects inability to style clickable 'input' types in iOS */
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1;
+	outline-color: transparent;
+	outline-style: none;
+	padding: 1em 1em 0.9em;
+	text-shadow: 0;
+	width: 100%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.wpcf7 input[type="submit"]:hover {
+	opacity: 0.6;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+/*--------------------------------------------------------------6.0 div--------------------------------------------------------------*/
+html {
+	border: 12px solid #111;
+}
+
+.site-div {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.div-image {
+	margin-top: 1em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+/*--------------------------------------------------------------6.1 Links--------------------------------------------------------------*/
+a {
+	font-family: 'Hepta Slab', serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:active, a:focus {
+	text-decoration: none;
+}
+
+a, #currentPage {
+	color: rgb(114, 4, 4)!important;
+	text-decoration: underline;
+}
+
+footer, #footerLink {
+	font-family: 'Antic Slab', serif;
+	color: #ccc!important;
+}
+/*--------------------------------------------------------------6.3 Menus--------------------------------------------------------------*/
+.menu {
+	display: table;
+	margin: 0 auto;
+}
+
+.main-navigation {
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 15px 0;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	text-transform: uppercase;
+}
+
+.main-navigation a {
+	text-decoration: none;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 3px 0;
+}
+
+.main-navigation li {
+	display: inline;
+	float: left;
+	margin: 0 1em;
+	position: relative;
+}
+
+.main-navigation ul ul {
+	display: none;
+	text-transform: none;
+	box-shadow: none;
+	opacity: 0.9;
+	float: left;
+	left: -1em;
+	padding: 0.5em 1em;
+	position: absolute;
+	top: 1.5em;
+	z-index: 99999;
+	padding-top: 35px;
+	transition: all 0.3s;
+	font-weight: 400;
+	background-color: #fff;
+}
+
+.main-navigation ul ul li {
+	margin: 0;
+	width: 150px;
+}
+
+.main-navigation ul li:hover>ul {
+	display: block;
+}
+/*--------------------------------------------------------------7.0 Accessibility--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+    /* Above WP toolbar */
+	;
+}
+/*--------------------------------------------------------------14.0 Media--------------------------------------------------------------*/
+/* Make sure embeds and iframes fit their containers */
+embed, iframe, object {
+	max-width: 100%;
+}
+/*--------------------------------------------------------------15.3 Buttons--------------------------------------------------------------*/
+.button {
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 0 1em;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+a.button {
+	text-decoration: none;
+}
+
+a:hover.button {
+	color: #fff;
+	opacity: 0.6;
+}
+
+a.portfoliotype {
+	text-decoration: none;
+	margin-right: 5px;
+	font-style: italic;
+}
+
+a.portfoliotype:after {
+	content: '/';
+	margin-left: 5px;
+}
+
+a.portfoliotype:last-child:after {
+	content: none;
+	margin-right: 0;
+}
+/*--------------------------------------------------------------12.0 Footer--------------------------------------------------------------*/
+.site-footer {
+	padding: 2em 0;
+	text-align: center;
+	background-color: #333;
+	color: #999;
+}
+
+.site-footer a {
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* ---------------CUSTOM STYLE--------------------- */
+/*TITLE IMAGE*/
+#site-title {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#site-title:hover {
+	opacity: .5;
+}
+
+/*CONTENT*/
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	flex: 1 0 auto;
+	padding-bottom: 2rem;
+	margin: auto 0rem;
+	width: 60rem;
+}
+
+.imgTitle {
+	margin: 1rem 0rem 2rem;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.portfolioImg {
+	height: auto;
+	width: 50%;
+}
+
+.portfolioImg img {
+	border-radius: 1rem;
+}
+
+.carousel-inner img {
+	border-radius: 1rem;
+}
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 2em;
+}
+
+.box > * {
+	flex: 2;
+}
+.column {
+	margin-bottom: 0;
+	padding: 0 0.938rem;
+}
+
+.column.full {
+	width: 100%;
+}
+
+/*FOOTER*/
+footer {
+	flex-shrink: 0;
+}
+#footerImg {
+	width: 25%;
+	margin: .5rem 0rem;
+}
+
+#footerImg:hover {
+	opacity: .5;
+}
+
+/*ABOUT PAGE*/
+#aboutImg {
+	border-radius: 1rem;
+	float: right;
+	margin: 0rem .70rem 5rem 1rem;
+	width: 35%;
+	filter: drop-shadow(.5rem .5rem 0.25rem rgba(223, 223, 223, 0.8));
+}
+
+/*CONTACT PAGE*/
+#contactInfo {
+	margin: 1.5rem .5rem;
+}
+
+#contactSheet {
+	float: right;
+	width: 45%;
+	display: inline-block;
+	margin: 1.5rem .5rem;
+}
+
+#googleMap iframe {
+	float: left;
+	display: inline-block;
+	height: 50rem;
+	width: 50%;
+	margin: 1.5rem .5rem;
+}
+
+.main-navigation {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.widget-title {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+button, input, select, textarea {
+	color: #888888;
+}
+
+.main-navigation a {
+	color: #222222 !important;
+}
